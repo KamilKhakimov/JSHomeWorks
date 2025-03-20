@@ -1,1 +1,73 @@
 /* start work */
+body {
+    font-family: "Montserrat", sans-serif;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* banner */
+.banner {
+    background-color: rgba(225, 255, 143, 1);
+    padding: 196px 0 156px 0;
+
+}
+.banner-content {
+    max-width: 769px;
+}
+.banner__title {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 64px;
+    margin-bottom: 24px;
+}
+.banner__subtitle {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 48px;
+}
+.banner__subtitle span {
+    font-weight: 600;
+}
+.banner__btn {
+    background-color: rgba(32, 32, 39, 1);
+    padding: 16px 65px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 142%;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 60px;
+    cursor: pointer;
+    transition: background-color 1s ease-in-out;
+}
+.banner__btn:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+/* banner */
+
+
+/* scroll-bar */
+.scroll-bar {
+    background-color: rgba(188, 236, 48, 1);
+    padding: 27px 0;
+}
+.scroll-bar__content {
+    display: flex;
+    gap: 51px;
+    align-items: center;
+    overflow-x: hidden;
+    white-space: nowrap;
+}
+.scroll-bar__text {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 110%;
+    letter-spacing: 4%;
+    text-transform: uppercase;
+}
+/* scroll-bar */
