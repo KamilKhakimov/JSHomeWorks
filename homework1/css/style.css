@@ -71,3 +71,60 @@ body {
     text-transform: uppercase;
 }
 /* scroll-bar */
+
+/* about games */
+
+.about-games {
+    background-color: rgba(32, 32, 39, 1);
+    padding: 94px 0 96px 0;
+}
+.main-subtitle {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    color: white;
+}
+.about-games__title {
+    margin-bottom: 24px;
+}
+.about-games__text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    margin-bottom: 72px;
+    color: white;
+}
+.about-games__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+.about-games__each-card {
+    background-color: white;
+    max-width: 378px;
+    border-radius: 30px;
+}
+.games-card__img img {
+    border-radius: 30px; 
+}
+.games-card__content {
+    padding: 40px 32px 40px 32px;
+}
+.games-card__text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 110%;
+    vertical-align: bottom;
+    background-color: rgba(247, 247, 247, 1);
+    border-radius: 52px;
+    max-width: 112px;
+    padding: 8px 16px;
+    margin-bottom: 16px;
+}
+.games-card__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+}
+/* about games */
