@@ -10,8 +10,15 @@ body {
 /* banner */
 .banner {
     background-color: rgba(225, 255, 143, 1);
-    padding: 196px 0 156px 0;
+}
+.banner__background {
+    background: url('../src/img/animation_icons/main-star.png') no-repeat top right,
+    url('../src/img/animation_icons/star_desctop_one.png') no-repeat 4% 19%,
+    url('../src/img/animation_icons/star_desctop_two.png') no-repeat 12% 10%,
+    url('../src/img/animation_icons/star_desctop_three.png') no-repeat 76% 89%,
+    url('../src/img/animation_icons/star_desctop_four.png') no-repeat 70% 77%;
 
+    padding: 196px 0 156px 0;
 }
 .banner-content {
     max-width: 769px;
@@ -76,7 +83,12 @@ body {
 
 .about-games {
     background-color: rgba(32, 32, 39, 1);
+}
+.about-games_background {
     padding: 94px 0 96px 0;
+    background: url('../src/img/animation_icons/about_game_star.png') no-repeat top right,
+    url('../src/img/animation_icons/about-games_star_one.png') no-repeat 1% 50%,
+    url('../src/img/animation_icons/about-games_star_two.png') no-repeat 3% 58%;
 }
 .main-subtitle {
     font-weight: 700;
